@@ -2,7 +2,8 @@ import { Navbar, Nav, Container, NavbarCollapse } from "react-bootstrap";
 
 const BarraNavegacion = () => {
     return (
-        <Navbar bg="dark" variant ="dark" 
+        <Navbar 
+        bg="dark" variant ="dark" 
         expand="lg" 
         sticky="top" 
         className="shadow-sm py-3"
