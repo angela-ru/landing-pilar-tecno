@@ -1,4 +1,4 @@
-import { Navbar, Nav, Container, NavbarCollapse } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 const BarraNavegacion = () => {
     return (
@@ -10,16 +10,16 @@ const BarraNavegacion = () => {
         >
             <Container>
                 <Navbar.Brand href="#inicio" className="fw-bold"> 
-                   Pila Tecno 
+                   Pilar Tecno 
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbar-principal" />
-                    <NavbarCollapse id="navbar-principal">
+                    <Navbar.Collapse id="navbar-principal">
                         <Nav className="ms-auto gap-lg-3">
                             <Nav.Link href="#inicio">Inicio</Nav.Link>
                             <Nav.Link href="#cursos">Cursos</Nav.Link>
                             <Nav.Link href="#contacto">Contacto</Nav.Link>
                         </Nav>
-                    </NavbarCollapse>
+                    </Navbar.Collapse>
             </Container>
         </Navbar>
     );
